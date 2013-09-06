@@ -85,6 +85,7 @@
                 <configuration>
                     <sdk>
                         <platform>18</platform>
+                        <path>/Applications/Android Studio.app/sdk</path>
                     </sdk>
                 </configuration>
             </plugin>

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.thoughtworks.android.activities.HomeActivityTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.15 sec <<< FAILURE! - in com.thoughtworks.android.activities.HomeActivityTest
+usesGoogleSearchEngineToPerformTheQuery(com.thoughtworks.android.activities.HomeActivityTest)  Time elapsed: 5.95 sec  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+Wanted but not invoked:
+googleSearchEngine.search("le query");
+-> at com.thoughtworks.android.activities.HomeActivityTest.usesGoogleSearchEngineToPerformTheQuery(HomeActivityTest.java:38)
+Actually, there were zero interactions with this mock.
+
+	at com.thoughtworks.android.activities.HomeActivityTest.usesGoogleSearchEngineToPerformTheQuery(HomeActivityTest.java:38)
+

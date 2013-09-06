@@ -3,5 +3,6 @@
 
     <string name="app_name">Android With Lasers</string>
     <string name="action_settings">Settings</string>
+    <string name="hello_world">Well Hello There!</string>
 
 </resources>
